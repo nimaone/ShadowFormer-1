@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-
+#make it faster"
 def tv_loss(x, beta = 0.5, reg_coeff = 5):
     '''Calculates TV loss for an image `x`.
         
