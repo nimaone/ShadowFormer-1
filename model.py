@@ -13,6 +13,7 @@ import cv2
 import scipy.misc
 import utils
 #########################################
+print("hello")
 class ConvBlock(nn.Module):
     def __init__(self, in_channel, out_channel, strides=1):
         super(ConvBlock, self).__init__()
